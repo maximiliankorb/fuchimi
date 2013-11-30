@@ -2,9 +2,9 @@ package fuchimi;
 
 public class FuchimiGame {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Welcome to Fuchimi");
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		System.out.println("Welcome to Fuchimi");
+//	}
 
 }

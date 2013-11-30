@@ -3,27 +3,28 @@ package fuchimi;
 public class Paper extends Hand {
 
 	@Override
-	public boolean beats(Hand hand) {
+	public Boolean beats(Hand hand) {
 		// TODO Auto-generated method stub
-		return false;
+		
+		return hand.loseAgainst(this);
 	}
 
 	@Override
-	protected boolean loseAgainst(Rock rock) {
+	protected Boolean loseAgainst(Rock rock) {
 		// TODO Auto-generated method stub
-		return false;
+		return new Boolean(true);
 	}
 
 	@Override
-	protected boolean loseAgainst(Paper paper) {
+	protected Boolean loseAgainst(Paper paper) {
 		// TODO Auto-generated method stub
-		return false;
+		return null;
 	}
 
 	@Override
-	protected boolean loseAgainst(Scissors Scissors) {
+	protected Boolean loseAgainst(Scissors Scissors) {
 		// TODO Auto-generated method stub
-		return false;
+		return new Boolean(false);
 	}
 
 }
