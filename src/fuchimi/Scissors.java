@@ -1,11 +1,11 @@
 package fuchimi;
 
-public class Scissors extends Hand{
+public class Scissors extends Hand {
 
 	@Override
 	public Boolean beats(Hand hand) {
 		// TODO Auto-generated method stub
-		
+
 		return hand.loseAgainst(this);
 	}
 
@@ -26,5 +26,11 @@ public class Scissors extends Hand{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
+	public String toString() {
 
+		String s = "Scissors";
+		return s;
+	}
 }

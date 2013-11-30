@@ -5,7 +5,7 @@ public class Rock extends Hand{
 	@Override
 	public Boolean beats(Hand hand) {
 		// TODO Auto-generated method stub
-		
+
 		return hand.loseAgainst(this);
 	}
 
@@ -25,6 +25,13 @@ public class Rock extends Hand{
 	protected Boolean loseAgainst(Scissors Scissors) {
 		// TODO Auto-generated method stub
 		return new Boolean(false);
+	}
+
+	
+	public String toString() {
+
+		String s = "Rock";
+		return s;
 	}
 
 }
